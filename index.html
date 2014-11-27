@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SourceScript Innovations</title>
+	<link rel="icon" href="png/favicon.png" type="image/png">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,400italic,600italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/nav-stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/home-stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/about-stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/services-stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a href="">
+					<img alt="Brand" width="200" class="nav-logo" src="png/nav-logo.png">
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+			<div>
+
+		</div>
+	</nav>
+
+	<section class="home">
+		<div class="container">
+			<div class="outer-table">
+				<div class="inner-table">
+					<div>
+
+						<img width="225" class="home-logo" src="png/home-logo.png">
+					</div>
+
+					<div>
+						<img width="400" class="home-typo" src="png/home-typo.png">
+					</div>
+
+					<div class="home-description">
+						<h2>We build things that solve problems,</h2>
+						<h2>things that delight users.</h2>
+					</div>
+
+					<div class="home-btn">
+						<button type="button" class="btn lrnmr-btn" id="learn-more">Learn More</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+
+		<div class="aboutTitle">
+			<h3 class="about-title">About</h3>
+		</div>
+
+		<div class="Description">
+			<p class="about-description">Sourcescript Innovations is a manila-based web company that ensures Web Visibility.</p>
+			<p class="about-description">We develop low to high end web and mobile applications.</p>
+		</div>
+
+		<div class="teamMemberTitle">
+			<h4 class="team-member-title">Team Members</h4>
+		</div>
+
+		<div class="teamMembers">
+			<div class="row">
+				
+				<div class="col-md-4">
+					<div class="team-member">
+						<img class="member-jpg animated" src="jpg/team-members/mark-penaranda-150x150.jpg">
+						<h4 class="member-name">Mark Penaranda</h4>
+						<p class="member-position">CEO of SourceScript</p>
+					</div>
+
+					<div class="team-member">
+						<img class="member-jpg animated" src="jpg/team-members/ryan-navarroza-150x150.jpg">
+						<h4 class="member-name">Ryan Navarroza</h4>
+						<p class="member-position">CTO/System Architect</p>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="team-member">
+						<img class="member-jpg animated" src="jpg/team-members/jc-ricaro-150x150.jpg">
+						<h4 class="member-name">Jc Ricaro</h4>
+						<p class="member-position">Back-end Software Engineer</p>
+					</div>
+
+					<div class="team-member">
+						<img class="member-jpg animated" src="jpg/team-members/kier-borromeo-150x150.jpg">
+						<h4 class="member-name">Kier Borromeo</h4>
+						<p class="member-position">Javascript Ninja</p>
+					</div>					
+				</div>
+
+				<div class="col-md-4">
+					<div class="team-member">
+						<img class="member-jpg animated" src="jpg/team-members/kirby-borromeo-150x150.jpg">
+						<h4 class="member-name">Kirby Borromeo</h4>
+						<p class="member-position">Desinger</p>
+					</div>
+
+					<div class="team-member">
+						<img class="member-jpg animated" src="jpg/team-members/brian-bodollo-150x150.jpg">
+						<h4 class="member-name">Brian Bodollo</h4>
+						<p class="member-position">System/Server Administrator</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+	<section class="services">
+		
+	</section>
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/animatescroll.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $('#learn-more').on('click',function(e) {
+    e.preventDefault();
+    $('#about').animatescroll();
+  });
+</script>
+</body>
+</html>
