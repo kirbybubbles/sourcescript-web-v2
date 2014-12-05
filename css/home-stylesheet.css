@@ -12,33 +12,56 @@
 	width: 100%;
 }
 
-.home {
+.home-contents {
 	background: url('../jpg/home-bg.jpg');
 	background-size: cover;
 	width: 100%;
-	height: 100vh;
+	min-height: 100vh;
 	padding: 25px;
 }
 
-.home-logo {
+/*.home-logo {
 	margin-top: 75px;
 }
 
 .home-typo {
-	margin-top: 5px;
+	margin-top: 150px;
+}*/
+
+.home-typo:first-child {
+	background-color: transparent;
+	font-family: 'Open Sans', 'Noto Sans', 'Roboto', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 150px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
+.home-typo:last-child {
+	background-color: transparent;
+	font-family: 'Open Sans', 'Noto Sans', 'Roboto', sans-serif;
+	font-size: 60px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 0px;
+	padding: 0px;
 }
 
 .home-description h2:first-child {
 	color: #fff;
-	font-family: 'Montserrat', 'Open Sans', 'Source Sans Pro', sans-serif;
+	font-family: 'Roboto', 'Noto Sans', 'Open Sans', sans-serif;
 	font-weight: bold;
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-bottom: 0px;
 }
 
 .home-description h2:last-child {
 	color: #fff;
-	font-family: 'Montserrat', 'Open Sans', 'Source Sans Pro', sans-serif;
+	font-family: 'Roboto', 'Noto Sans', 'Open Sans', sans-serif;
 	font-weight: bold;
 	margin-top: 0px;
 
@@ -47,7 +70,7 @@
 .lrnmr-btn {
 	background-color: transparent;
 	color: #fff;
-	font-family: 'Source Sans Pro', 'Open Sans', 'Montserrat', sans-serif;
+	font-family: 'Noto Sans', 'Roboto', 'Open Sans', sans-serif;
 	font-size: 16px;
 	text-align: center;
 	border: 1px solid #fff;
@@ -57,4 +80,24 @@
 	padding-right: 75px;
 	padding-bottom: 10px;
 	padding-left: 75px;
+	outline: none;
+}
+
+.lrnmr-btn:hover {
+	background-color: #76ff03;
+	color: #fff;
+	border: 1px solid #76ff03;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+}
+
+.lrnmr-btn:focus {
+	background-color: #76ff03;
+	color: #fff;
+	border: 1px solid #76ff03;
+	outline: none;
+	-webkit-animation-name: bounce;
+	animation-name: bounce;
 }

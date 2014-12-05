@@ -1,0 +1,93 @@
+.contact {
+	background-color: #212121;
+	width: 100%;
+	min-height: 100vh;
+	padding: 25px;
+	margin-bottom: 0px;
+}
+
+.contact-title {
+	font-family: 'Roboto', 'Noto Sans','Open Sans', sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 75px;
+}
+
+.contact-title::after {
+	display: block;
+	content: "";
+	height: 1px;
+	width: 50px;
+	background-color: #dddddd;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.fullname-input {
+	display: block;
+	background-color: #fff;
+	font-family: 'Noto Sans', 'Roboto', 'Open Sans', sans-serif;
+	width: 400px;
+	border: 0px;
+	padding: 10px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	outline: none;
+}
+
+.emailaddress-input {
+	display: block;
+	background-color: #fff;
+	font-family: 'Noto Sans', 'Roboto', 'Open Sans', sans-serif;
+	width: 400px;
+	border: 0px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	outline: none;
+}
+
+
+
+.yourmessage-input {
+	display: block;
+	background-color: #fff;
+	font-family: 'Noto Sans', 'Roboto', 'Open Sans', sans-serif;
+	width: 400px;
+	border: 0px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	outline: none;
+}
+
+.sendmsg-button {
+	display: block;
+	background-color: transparent;
+	font-family: 'Noto Sans', 'Roboto', 'Open Sans', sans-serif;
+	color: #fff;
+	border: 1px solid #fff;
+	width: 400px;
+	padding-top: 15px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	outline: none;
+}
+
+.sendmsg-button:hover {
+	background-color: #76ff03;
+	color: #fff;
+	border: 1px solid #76ff03;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+}
